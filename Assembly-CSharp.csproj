@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ABC58DCA-C9AC-2561-1FF9-331F16BA2FE0}</ProjectGuid>
+    <ProjectGuid>{B75CEA58-1297-756C-E994-148404C4E948}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,23 +58,30 @@
     <Analyzer Include="E:\Unity Hub\2022.3.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\LeaderStateMachine1.cs" />
-    <Compile Include="Assets\Scripts\StateMachine.cs" />
-    <Compile Include="Assets\Scripts\GeneratorEditor.cs" />
-    <Compile Include="Assets\Scripts\ChaseState.cs" />
-    <Compile Include="Assets\Scripts\PriorityQ.cs" />
-    <Compile Include="Assets\Scripts\NodesGenerator.cs" />
-    <Compile Include="Assets\Scripts\BoidLimit.cs" />
-    <Compile Include="Assets\Scripts\Boid.cs" />
-    <Compile Include="Assets\Scripts\LeaderStateMachine2.cs" />
-    <Compile Include="Assets\Scripts\BaseState.cs" />
-    <Compile Include="Assets\Scripts\NPCHunter.cs" />
-    <Compile Include="Assets\Scripts\Node.cs" />
-    <Compile Include="Assets\Scripts\PatrolState.cs" />
-    <Compile Include="Assets\Scripts\BoidSpawner.cs" />
-    <Compile Include="Assets\Scripts\PathfindingChecker.cs" />
-    <Compile Include="Assets\Scripts\IdleState.cs" />
-    <Compile Include="Assets\Scripts\Pathfinding.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\GeneratorEditor.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\Pathfinding.cs" />
+    <Compile Include="Assets\Scripts\Leader\Leader1\FightingState.cs" />
+    <Compile Include="Assets\Scripts\Leader\Leader1\WalkingState.cs" />
+    <Compile Include="Assets\Scripts\Leader\Leader1\IdleState.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\Node.cs" />
+    <Compile Include="Assets\Scripts\Boids\BoidSpawner.cs" />
+    <Compile Include="Assets\Scripts\Boids\BoidLimit.cs" />
+    <Compile Include="Assets\Scripts\Boids\SearchingLeaderState.cs" />
+    <Compile Include="Assets\Scripts\Leader\Leader1\StateMachine.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\PathfindingChecker.cs" />
+    <Compile Include="Assets\Scripts\Leader\Leader1\LeaderController.cs" />
+    <Compile Include="Assets\Scripts\Boids\AttackingEnemiesState.cs" />
+    <Compile Include="Assets\Scripts\Boids\FollowingLeaderState.cs" />
+    <Compile Include="Assets\Scripts\Boids\BoidIdle.cs" />
+    <Compile Include="Assets\Scripts\Leader\Leader1\LeaderStates.cs" />
+    <Compile Include="Assets\Scripts\Boids\BoidStates.cs" />
+    <Compile Include="Assets\Scripts\Leader\Leader1\EscapingState.cs" />
+    <Compile Include="Assets\Scripts\Boids\Boid.cs" />
+    <Compile Include="Assets\Scripts\Boids\BoidStateMachine.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\NodesGenerator.cs" />
+    <Compile Include="Assets\Scripts\Boids\BoidEscapingState.cs" />
+    <Compile Include="Assets\Scripts\Pathfinding\PriorityQ.cs" />
+    <Compile Include="Assets\Scripts\Leader\Leader1\BaseState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
